@@ -68,7 +68,7 @@ const BLOG = {
   UUID_REDIRECT: process.env.UUID_REDIRECT || false,
 
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 锁定默认主题为hexo
-  THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || true, // 是否显示切换主题按钮
+  // THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || true, // 是否显示切换主题按钮
 }
 
 module.exports = BLOG
